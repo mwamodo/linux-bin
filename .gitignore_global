@@ -1,0 +1,16 @@
+# OS Files
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log
+
+# vi
+*~
+
+# General
+log/
+*.log
+
+# etc...
+haters/
