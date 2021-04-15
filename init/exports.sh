@@ -2,14 +2,14 @@
 # export PATH="$PATH:`yarn --offline global bin`"
 
 # npm global path to prevent install npm with sudo
-# export NPM_PACKAGES="${HOME}/.npm-packages"
+export NPM_PACKAGES="${HOME}/.npm-packages"
 
 # Insert globally installed npm packages to path
-# export PATH="$NPM_PACKAGES/bin:$PATH"
+export PATH="$NPM_PACKAGES/bin:$PATH"
 
 # Unset manpath so we can inherit from /etc/manpath via the `manpath` command
-# unset MANPATH # delete if you already modified MANPATH elsewhere in your config
-# export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
+unset MANPATH # delete if you already modified MANPATH elsewhere in your config
+export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 
 export DATE=`date +%d-%m-%Y`
 
@@ -17,15 +17,13 @@ export DATE=`date +%d-%m-%Y`
 export PATH=$PATH:$HOME/bin/scripts
 
 # php
-# export PATH="/usr/local/opt/php@7.3/bin:$PATH"
-# export PATH="/usr/local/opt/php@7.3/sbin:$PATH"
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 
 # go
 # export PATH="$HOME/go/bin:$PATH"
 
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 # export ANDROID_HOME=$HOME/Android/Sdk
 # export PATH=$PATH:$ANDROID_HOME/emulator

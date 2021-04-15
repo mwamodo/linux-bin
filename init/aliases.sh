@@ -40,3 +40,6 @@ alias logs:clear="truncate -s 0 storage/logs/laravel.log"
 alias artisan:test='artisan test --parallel'
 
 alias reload="source ~/.zshrc"
+
+# Server aliases
+alias dutcredit:backups="scp -r forge@165.227.205.119:/home/forge/dutcredit.co.ke/storage/app/DUT-Credit /home/malik/.backups"
