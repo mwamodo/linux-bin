@@ -19,7 +19,7 @@ export PATH=$PATH:$HOME/bin/scripts
 # php
 # export PATH="/usr/local/opt/php@7.3/bin:$PATH"
 # export PATH="/usr/local/opt/php@7.3/sbin:$PATH"
-# export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 
 # go
 # export PATH="$HOME/go/bin:$PATH"
