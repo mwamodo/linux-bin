@@ -6,6 +6,9 @@ alias lla="ls -al"
 
 # Jump to directories
 alias sites="cd ~/Sites"
+alias sites:static="cd ~/Code/Sites"
+alias code="cd ~/Code"
+alias bin="cd ~/bin"
 
 # Git aliases
 alias gs="git status -s"
