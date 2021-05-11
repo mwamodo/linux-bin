@@ -60,14 +60,12 @@ commit () {
     commitMessage="$1"
     gitCurrentBranch= eval "git branch --show-current"
 
-echo ${gitCurrentBranch}
+    if [ "$commitMessage" = "" ]
+    then
+        commitMessage="WIP"
+    fi
 
-    # if [ "$commitMessage" = "" ]
-    # then
-    #     commitMessage="WIP"
-    # fi
-
-    # git add .
-    # eval "git commit -a -m '${commitMessage}'"
-    # eval "git push ${gitCurrentBranch}"
+    git add .
+    eval "git commit -a -m '${commitMessage}'"
+    eval "git push ${gitCurrentBranch}"
 }
