@@ -18,6 +18,9 @@ ln -s "${HOME}/bin/.gitignore_global" "${HOME}/.gitignore_global"
 echo 'Linking hyper terminal config file'
 ln -s "${HOME}/bin/.hyper.js" ${HOME}/.hyper.js
 
+echo 'Creating directories'
+mkdir ${HOME}/.npm-packages
+
 # Vim Editor Configurations
 echo 'Cleaning up vim configurations if already setup'
 rm -rf "${HOME}/.vim" 2> /dev/null

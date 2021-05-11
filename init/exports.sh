@@ -1,11 +1,11 @@
-# yarn global as set in the installation script
-export PATH="$PATH:`yarn --offline global bin`"
-
 # npm global path to prevent install npm with sudo
 export NPM_PACKAGES="${HOME}/.npm-packages"
 
 # Insert globally installed npm packages to path
 export PATH="$NPM_PACKAGES/bin:$PATH"
+
+# yarn global as set in the installation script
+# export PATH="$PATH:`yarn --offline global bin`"
 
 # Unset manpath so we can inherit from /etc/manpath via the `manpath` command
 unset MANPATH # delete if you already modified MANPATH elsewhere in your config
