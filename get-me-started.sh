@@ -7,6 +7,7 @@ echo 'Removing the files to be linked'
 [ -e ${zshrc_file} ] && rm ${zshrc_file}
 [ -e "${HOME}/.vimrc" ] && rm "${HOME}/.vimrc"
 [ -e "${HOME}/.gitignore_global" ] && rm "${HOME}/.gitignore_global"
+[ -e "${HOME}/.hyper.js" ] && rm "${HOME}/.hyper.js"
 
 echo 'Linking .zshrc file to bin/.zshrc'
 ln -s "${zshrc_file}" "${HOME}/.zshrc"
@@ -16,6 +17,9 @@ ln -s "${HOME}/bin/.vimrc" "${HOME}/.vimrc"
 
 echo 'Linking global gitignore file'
 ln -s "${HOME}/bin/.gitignore_global" "${HOME}/.gitignore_global"
+
+echo 'Linking hyper terminal config file'
+ln -s "${HOME}/bin/.hyper.js" ${HOME}/.hyper.js
 
 # Vim Editor Configurations
 echo 'Cleaning up vim configurations if already setup'

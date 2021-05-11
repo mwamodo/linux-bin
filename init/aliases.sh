@@ -42,6 +42,8 @@ alias db:seed="artisan db:seed"
 alias logs:clear="truncate -s 0 storage/logs/laravel.log"
 alias artisan:test='artisan test --parallel'
 
+alias update="sudo apt update"
+alias upgrade="sudo apt upgrade -y"
 alias reload="source ~/.zshrc"
 
 # Server aliases
