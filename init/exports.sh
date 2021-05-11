@@ -58,12 +58,16 @@ load-nvmrc
 
 commit () {
     commitMessage="$1"
+    gitCurrentBranch= eval "git branch --show-current"
 
-    if [ "$commitMessage" = "" ]
-    then
-        commitMessage="WIP"
-    fi
+echo ${gitCurrentBranch}
 
-    git add .
-    eval "git commit -a -m '${commitMessage}'"
+    # if [ "$commitMessage" = "" ]
+    # then
+    #     commitMessage="WIP"
+    # fi
+
+    # git add .
+    # eval "git commit -a -m '${commitMessage}'"
+    # eval "git push ${gitCurrentBranch}"
 }
