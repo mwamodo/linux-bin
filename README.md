@@ -1,4 +1,9 @@
 
+### TODO
+1. Better documentation
+2. All improvements
+3. Script development env. (ubuntu VM maybe) 
+
 ### Installation
 
 - install git and complete the first-time setups (https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
@@ -41,6 +46,10 @@ npm config set prefix "${HOME}/.npm-packages"
 # make sure the step above is completed successfully
 npm install -g yarn
 ```
+- install trash-cli
+```bash
+sudo apt install trash-cli
+```
 
 ### Refactor Sections
 
@@ -53,3 +62,6 @@ sudo snap install gh
 ```bash
 sudo snap install code-insiders --classic
 ```
+
+### More Personal things
+- make directories such as sites, packages and start cloning stuff into the directories

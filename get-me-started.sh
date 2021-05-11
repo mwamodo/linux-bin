@@ -20,6 +20,7 @@ ln -s "${HOME}/bin/.hyper.js" ${HOME}/.hyper.js
 
 echo 'Creating directories'
 mkdir ${HOME}/.npm-packages
+mkdir ${HOME}/.backups
 
 # Vim Editor Configurations
 echo 'Cleaning up vim configurations if already setup'

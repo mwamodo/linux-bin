@@ -5,10 +5,12 @@ alias la="ls -a"
 alias lla="ls -al"
 
 # Jump to directories
-alias sites="cd ~/Sites"
-alias sites:static="cd ~/Code/Sites"
-alias code="cd ~/Code"
 alias bin="cd ~/bin"
+alias code="cd ~/Code"
+alias sites="cd ~/Sites"
+alias packages="cd ~/Packages"
+alias site:freshrgoods="cd ~/Sites/freshrgoods"
+alias package:duka="cd ~/Packages/duka"
 
 # Git aliases
 alias gs="git status -s"
