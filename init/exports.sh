@@ -58,7 +58,7 @@ load-nvmrc
 
 commit () {
     commitMessage="$1"
-    gitCurrentBranch= eval "git branch --show-current"
+    gitCurrentBranch=eval "git branch --show-current"
 
     if [ "$commitMessage" = "" ]
     then
