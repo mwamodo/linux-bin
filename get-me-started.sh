@@ -1,16 +1,13 @@
 #!/bin/zsh
 
-echo 'Creating variables'
-zshrc_file="${HOME}/bin/.zshrc"
-
 echo 'Removing the files to be linked'
-[ -e ${zshrc_file} ] && rm ${zshrc_file}
+[ -e "${HOME}/.zshrc}" ] && rm ${HOME}/.zshrc
 [ -e "${HOME}/.vimrc" ] && rm "${HOME}/.vimrc"
 [ -e "${HOME}/.gitignore_global" ] && rm "${HOME}/.gitignore_global"
 [ -e "${HOME}/.hyper.js" ] && rm "${HOME}/.hyper.js"
 
 echo 'Linking .zshrc file to bin/.zshrc'
-ln -s "${zshrc_file}" "${HOME}/.zshrc"
+ln -s "${HOME}/bin/.zshrc" "${HOME}/.zshrc"
 
 echo 'Linking .vimrc to bin/.vimrc'
 ln -s "${HOME}/bin/.vimrc" "${HOME}/.vimrc"
