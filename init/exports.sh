@@ -67,5 +67,5 @@ commit () {
 
     git add .
     eval "git commit -a -m '${commitMessage}'"
-    eval "git push ${gitCurrentBranch}"
+    eval "git push origin ${gitCurrentBranch}"
 }
