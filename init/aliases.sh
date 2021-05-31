@@ -11,11 +11,11 @@ alias sites="cd ~/Sites"
 alias packages="cd ~/Packages"
 
 # Git aliases
-alias gs="git status -s"
+alias gs="g status -s"
 alias gst="gs"
-alias gpo="git push origin"
-alias gpom="git push origin main"
-alias glog="git log --graph --pretty=format:'''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'"
+alias gpo="g push origin"
+alias gpom="g push origin main"
+alias glog="g log --graph --pretty=format:'''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'"
 
 # Programs aliases
 alias code="code-insiders"
