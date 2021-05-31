@@ -9,8 +9,6 @@ alias bin="cd ~/bin"
 alias code="cd ~/Code"
 alias sites="cd ~/Sites"
 alias packages="cd ~/Packages"
-alias site:freshrgoods="cd ~/Sites/freshrgoods"
-alias package:duka="cd ~/Packages/duka"
 
 # Git aliases
 alias gs="git status -s"
@@ -29,24 +27,29 @@ alias h="history | awk '{print $2}' | sort | uniq -c | sort -rn | head -5"
 # PHP | Laravel
 alias artisan="php artisan"
 alias a='artisan'
-alias horizon='artisan horizon'
+alias horizon='a horizon'
 
-alias mf="artisan migrate"
-alias ms="artisan migrate:status"
+alias mf="a migrate"
+alias ms="a migrate:status"
 
-alias mff="artisan migrate:fresh"
-alias mfs="artisan migrate:fresh --seed"
-alias tinker="artisan tinker"
+alias mff="a migrate:fresh"
+alias mfs="a migrate:fresh --seed"
+alias tinker="a tinker"
 
-alias db:wipe="artisan db:wipe"
-alias db:seed="artisan db:seed"
+alias db:wipe="a db:wipe"
+alias db:seed="a db:seed"
 
 alias logs:clear="truncate -s 0 storage/logs/laravel.log"
-alias artisan:test='artisan test --parallel'
+alias artisan:test='a test --parallel'
 
+alias switch:php8="sudo update-alternatives --set php /usr/bin/php8.0"
+alias switch:php7="sudo update-alternatives --set php /usr/bin/php7.4"
+
+# System update & upgrade
 alias update="sudo apt update"
 alias upgrade="sudo apt upgrade -y"
 alias reload="source ~/.zshrc"
 
 # Server aliases
+alias dutcredit="cd Sites/dutcredit"
 alias dutcredit:backups="scp -r forge@165.227.205.119:/home/forge/dutcredit.co.ke/storage/app/DUT-Credit /home/malik/.backups"
