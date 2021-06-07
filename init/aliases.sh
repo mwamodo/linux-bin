@@ -42,6 +42,8 @@ alias db:seed="a db:seed"
 alias logs:clear="truncate -s 0 storage/logs/laravel.log"
 alias artisan:test='a test --parallel'
 
+alias pest="vendor/bin/pest"
+
 alias switch:php8="sudo update-alternatives --set php /usr/bin/php8.0"
 alias switch:php7="sudo update-alternatives --set php /usr/bin/php7.4"
 
