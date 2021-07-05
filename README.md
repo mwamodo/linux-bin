@@ -60,7 +60,6 @@ sudo snap install gh
 ```	
 3. Install vscode
 ```bash
-sudo snap install code-insiders --classic
 ```
 
 ### More Personal things

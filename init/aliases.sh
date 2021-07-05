@@ -6,7 +6,6 @@ alias lla="ls -al"
 
 # Jump to directories
 alias bin="cd ~/bin"
-alias code="cd ~/Code"
 alias sites="cd ~/Sites"
 alias packages="cd ~/Packages"
 
@@ -18,7 +17,6 @@ alias gpom="g push origin main"
 alias glog="g log --graph --pretty=format:'''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'"
 
 # Programs aliases
-alias code="code-insiders"
 alias v="vim"
 alias vi="vim"
 alias hd="trash .zsh_history"
