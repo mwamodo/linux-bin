@@ -25,7 +25,7 @@ export PATH="$HOME/go/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
-export JAVA_HOME=$HOME/.local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-0/202.7486908/jre
+export JAVA_HOME=$HOME/.local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7678000/jre
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
