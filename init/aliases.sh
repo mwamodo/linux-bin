@@ -52,7 +52,3 @@ alias switch:php7="sudo update-alternatives --set php /usr/bin/php7.4"
 alias update="sudo apt update"
 alias upgrade="sudo apt upgrade -y"
 alias reload="source ~/.zshrc"
-
-# Server aliases
-alias dutcredit="cd Sites/dutcredit"
-alias dutcredit:backups="scp -r forge@165.227.205.119:/home/forge/dutcredit.co.ke/storage/app/DUT-Credit /home/malik/.backups"
