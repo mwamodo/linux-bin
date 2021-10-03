@@ -84,7 +84,7 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 source $HOME/bin/init/init.sh
 
-# Custom Promt (Random emoji) 
+# Custom Promt (Random emoji)
 prompt_context() {
   emojis=("🔥" "💀" "👑" "😎" "🦄" "🍻" "🚀" "💡" "🎉" "🔑" "🚦")
   RAND_EMOJI_N=$(( $RANDOM % ${#emojis[@]} + 1))

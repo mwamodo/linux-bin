@@ -34,6 +34,10 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 export GTI_SPEED=2000
 
+# RUBY
+export GEM_HOME=~/.ruby/
+export PATH="$PATH:~/.ruby/bin"
+
 # Load nvm automatically when a dir has .nvmrc file
 
 autoload -U add-zsh-hook
