@@ -18,6 +18,7 @@ export PATH=$PATH:$HOME/bin/scripts
 
 # php
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+export XDEBUG_MODE=coverage
 
 # go
 export PATH="$HOME/go/bin:$PATH"
