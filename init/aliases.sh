@@ -48,6 +48,9 @@ alias pest="vendor/bin/pest"
 alias switch:php8="sudo update-alternatives --set php /usr/bin/php8.0"
 alias switch:php7="sudo update-alternatives --set php /usr/bin/php7.4"
 
+alias c="composer"
+alias ct="composer test"
+
 # System update & upgrade
 alias update="sudo apt update"
 alias upgrade="sudo apt upgrade -y"
