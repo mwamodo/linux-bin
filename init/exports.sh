@@ -32,6 +32,7 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$HOME/.local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7678000/jre/bin
 
 export GTI_SPEED=2000
 
