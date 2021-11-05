@@ -33,12 +33,14 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$HOME/.local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-0/203.7678000/jre/bin
+export PATH=$PATH:$HOME/.rbenv/bin
 
 export GTI_SPEED=2000
 
 # RUBY
-export GEM_HOME=~/.ruby/
-export PATH="$PATH:~/.ruby/bin"
+eval "$(rbenv init -)"
+# export GEM_HOME=~/.ruby/
+# export PATH="$PATH:~/.ruby/bin"
 
 # Load nvm automatically when a dir has .nvmrc file
 
@@ -76,7 +78,6 @@ commit () {
 }
 
 commit:push () {
-
 
     commitMessage="$1"
     gitCurrentBranch=$(git branch --show-current)
